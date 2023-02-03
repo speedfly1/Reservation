@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6w2ori6d2wkTWKdfq1oAsSMZ6i1RwXMGtaiGTtkZ91/YzQugX2VaN+VADJQO/zsmpiJageF9uX6fVW8YMzOYiw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\shukis\\source\\repos\\Reservation\\Reservation\\Reservation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shukis\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,17 @@
+C:\Users\shukis\source\repos\Reservation\Reservation\bin\Debug\net6.0\Reservation.exe
+C:\Users\shukis\source\repos\Reservation\Reservation\bin\Debug\net6.0\Reservation.deps.json
+C:\Users\shukis\source\repos\Reservation\Reservation\bin\Debug\net6.0\Reservation.runtimeconfig.json
+C:\Users\shukis\source\repos\Reservation\Reservation\bin\Debug\net6.0\Reservation.dll
+C:\Users\shukis\source\repos\Reservation\Reservation\bin\Debug\net6.0\Reservation.pdb
+C:\Users\shukis\source\repos\Reservation\Reservation\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\shukis\source\repos\Reservation\Reservation\obj\Debug\net6.0\Reservation.csproj.AssemblyReference.cache
+C:\Users\shukis\source\repos\Reservation\Reservation\obj\Debug\net6.0\Reservation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shukis\source\repos\Reservation\Reservation\obj\Debug\net6.0\Reservation.AssemblyInfoInputs.cache
+C:\Users\shukis\source\repos\Reservation\Reservation\obj\Debug\net6.0\Reservation.AssemblyInfo.cs
+C:\Users\shukis\source\repos\Reservation\Reservation\obj\Debug\net6.0\Reservation.csproj.CoreCompileInputs.cache
+C:\Users\shukis\source\repos\Reservation\Reservation\obj\Debug\net6.0\Reservation.csproj.CopyComplete
+C:\Users\shukis\source\repos\Reservation\Reservation\obj\Debug\net6.0\Reservation.dll
+C:\Users\shukis\source\repos\Reservation\Reservation\obj\Debug\net6.0\refint\Reservation.dll
+C:\Users\shukis\source\repos\Reservation\Reservation\obj\Debug\net6.0\Reservation.pdb
+C:\Users\shukis\source\repos\Reservation\Reservation\obj\Debug\net6.0\Reservation.genruntimeconfig.cache
+C:\Users\shukis\source\repos\Reservation\Reservation\obj\Debug\net6.0\ref\Reservation.dll
