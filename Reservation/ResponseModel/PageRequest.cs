@@ -1,6 +1,6 @@
 ﻿namespace Reservation
 {
-    public class pageRequest
+    public class PageRequest
     {
         public string title { get; set; }
         public string showLess { get; set; }

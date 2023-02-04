@@ -1,9 +1,10 @@
 ﻿namespace Reservation
 {
-    public class optionRequest
+    public class RecommendedRequest
     {
+        public string id { get; set; }
         public string time { get; set; }
         public string method { get; set; }
-        public string score { get; set; }
+        public string text { get; set; }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Reservation
 {
-    public class formattedRequestModel
+    public class FormattedRequestModel
     {
         public string date { get; set;  }
         public string mediumDate { get; set; }

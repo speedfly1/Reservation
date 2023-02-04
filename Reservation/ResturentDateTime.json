@@ -1,0 +1,38 @@
+[
+  {
+    "slug": 88542392,
+    "locale": "en-us",
+    "criteria": {
+      "size": "4",
+      "date": "20230605",
+      "time": "1800"
+    }
+  },
+  {
+    "slug": 88542392,
+    "locale": "en-us",
+    "criteria": {
+      "size": "4",
+      "date": "20230605",
+      "time": "1830"
+    }
+  },
+  {
+    "slug": 88542392,
+    "locale": "en-us",
+    "criteria": {
+      "size": "4",
+      "date": "20230605",
+      "time": "1900"
+    }
+  },
+  {
+    "slug": 88542392,
+    "locale": "en-us",
+    "criteria": {
+      "size": "4",
+      "date": "20230605",
+      "time": "2000"
+    }
+  }
+]

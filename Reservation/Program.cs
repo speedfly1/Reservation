@@ -1,7 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using Reservation;
 using System.Net;
 using System.Net.Http.Headers;
 using System.Reflection.Metadata;
@@ -9,75 +8,15 @@ using System.Reflection;
 using System.Reflection.Metadata.Ecma335;
 using System.Runtime.CompilerServices;
 using System.Text;
+using Reservation;
 
-const string slug = "88542392";
-//const string slug = "97568971";
-const string date = "20230605";
-
-ReservationRequest reservation1800 = new ReservationRequest()
-{
-    slug = slug,
-    locale = "en-us",
-    criteria = new searchcriteria()
-    {
-        size = "4",
-        date = date,
-        time = "1800"
-    }
-};
-ReservationRequest reservation1830 = new ReservationRequest()
-{
-    slug = slug,
-    locale = "en-us",
-    criteria = new searchcriteria()
-    {
-        size = "4",
-        date = date,
-        time = "1830"
-    }
-};
-ReservationRequest reservation1900 = new ReservationRequest()
-{
-    slug = slug,
-    locale = "en-us",
-    criteria = new searchcriteria()
-    {
-        size = "4",
-        date = date,
-        time = "1900"
-    }
-};
-ReservationRequest reservation2000 = new ReservationRequest()
-{
-    slug = slug,
-    locale = "en-us",
-    criteria = new searchcriteria()
-    {
-        size = "4",
-        date = date,
-        time = "2000"
-    }
-};
-ReservationRequest reservation2130 = new ReservationRequest()
-{
-    slug = slug,
-    locale = "en-us",
-    criteria = new searchcriteria()
-    {
-        size = "4",
-        date = date,
-        time = "2130"
-    }
-};
+string fileName = "ResturentDateTime.json";
+string jsonString = string.Empty;
+jsonString= File.ReadAllText(fileName);
+List<ReservationRequest> resturentReservation = JsonConvert.DeserializeObject<List<ReservationRequest>>(jsonString);
 
 
-
-
-Reserve(reservation1800);
-Reserve(reservation1830);
-Reserve(reservation1900);
-Reserve(reservation2000);
-Reserve(reservation2130);
+resturentReservation.ForEach(reserv => Reserve(reserv));
 
 
 async Task Reserve(ReservationRequest reservation)

@@ -1,4 +1,4 @@
-﻿public class searchcriteria
+﻿public class SearchCriteria
 {
     public string size { get; set; }
     public string date { get; set; }
